@@ -1,0 +1,136 @@
+body{
+	padding:0;
+	margin:0;
+	font-size:small;
+    width:100%;
+    height: 100%;
+}
+#header{
+	top:0;
+	overflow:hidden;
+
+	background-image: url(../images/headerimg.jpg);
+	width:100%;
+	color:white;
+	border-bottom:0px solid green;
+	height:auto;
+	text-align:center;
+}
+#header h1{
+	text-transform:uppercase;
+	text-shadow: 2px 2px green;
+	margin:15px;
+}
+
+#container{
+	width:35%;
+	margin:5%;
+	margin-right:auto;
+	margin-left:auto;
+	 background: white;
+    opacity: 1;
+    color: black;
+    border: 1px solid #CECFCF;
+    border-radius:15px;
+    position: static;
+    z-index: 2;
+	box-shadow: 0px 0px 12px rgba(88, 83, 74, .7);
+	height:auto;
+}
+
+#container1{
+	width:100%;
+	margin:5%;
+	margin-right:auto;
+	margin-left:auto;
+	/*background-color:#E4E4E4;  */
+	height:auto;
+}
+
+#signupbox{
+	display:none;
+	padding:40px;
+}
+
+/* now lets style the particular tabs */
+
+/*#tabbox a {
+    float:left;
+    text-decoration:none;
+    color:#000;
+   }
+.select
+{
+background-color:white;
+}
+label{
+	display:block;
+	padding:3px;
+	text-transform: uppercase;
+	color:#000;
+}
+.txtfield{
+	border-radius:5px;
+	height:25px;
+	width:80%;
+}*/
+.btn{
+	
+	padding:10px;
+	border-radius:7px;
+	background-color:#fff;
+	color:#000;
+	font-size:15px;
+	display:inline;
+	margin:10px 0px 0px 15px;
+	box-shadow:0px 0px 5px #fff;
+}
+#signinbox{
+	padding:15px;
+	margin:30px 0px 0px 30px;
+}
+.error{
+	color: #930;
+}
+
+/* Navigation */
+div.nav {
+	background-color: #d4d4d4;
+}
+
+div.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+
+div.nav ul li a:link,
+div.nav ul li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+}
+#footer{
+
+	bottom:0;
+	background-color:#666;
+	width:100%;
+
+	color:white;
+	height:auto;
+	text-align:center;
+    padding: 0 10px 0 10px;
+
+	}
+#footer p{
+	font-size:15px;
+	 text-transform: capitalize;
+	padding:13px 0px 13px 0px;
+}

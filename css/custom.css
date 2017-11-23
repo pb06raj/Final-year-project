@@ -1,0 +1,452 @@
+/* custom fonts intallation */
+@font-face {
+    font-family: 'collegiateregular';
+    src: url('../fonts/collegia-webfont.woff2') format('woff2'),
+         url('../fonts/collegia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ body, html {
+  height: 99.4%;
+  padding:0;
+  margin: 0;
+}
+
+.border{
+    border: 1px solid #C6C7C7;
+}
+
+/* Center content horizontal and vertical */
+.center {
+    margin: 0 auto;
+
+
+    padding: 40px;
+}
+
+/* row and column codes */
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.logo {
+    width: 100%
+
+}
+.headtitle{
+    font-family: 'collegiateregular';
+    font-size: 3.5em;
+    padding: 0;
+   /* color: #1340C7;     */
+    color: #3B403E;
+}
+.titlefont{
+   font-family: 'collegiateregular';
+   font-weight: 200;
+}
+.title-size-1{
+    font-size:         1em;
+}
+.title-size-1-5{
+    font-size:         1.5em;
+}
+.title-size-2{
+     font-size:        2em;
+}
+
+  .title-size-3{
+       font-size:      3em;
+}
+.bluedark{
+  color:  #258dc8;
+}
+
+.border {
+    border: 1px solid #908E8E;
+}
+/* css background image responsive */
+.body-content{       /* use for to make image background with opacity */
+          position: relative;
+          z-index: 1;
+
+}
+
+.imgresforumhome{            /* use for to make image background with opacity in Forum */
+/* position:absolute !important;
+ display: block;
+ z-index: -1;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background-image:url(../forum/images/bg-log.jpg);
+ background-repeat:no-repeat;
+ background-size: 100% 100%;
+
+ background-position:top left;
+ width: auto !important;
+ height: 100% !important;
+ opacity: 0.9;*/
+ position:absolute !important;
+  top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+
+ height: auto;
+  border:0px solid #000;
+  display: block;
+  background-image: url(../forum/images/bg-log1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+
+}
+.clearboth{
+   content: "";
+  clear: both;
+  display: table;
+}
+
+.imgresin{            /* use for to make image background with opacity */
+ position:absolute;
+          z-index: -1;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+    background-image:url(../website/images/bg-in.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+min-width: 100%;
+height: auto;
+opacity: 0.2;
+}
+.imgresbc{            /* use for to make image background with opacity */
+ position:absolute;
+          z-index: -1;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+    background-image:url(../website/images/bg-bc.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+min-width: 100%;
+height: auto;
+opacity: 0.4;
+}
+.imgresls{            /* use for to make image background with opacity */
+ position:absolute;
+          z-index: -1;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+    background-image:url(../website/images/bg-ls.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+min-width: 100%;
+height: auto;
+opacity: 0.3;
+}
+.imgresfp{            /* use for to make image background with opacity */
+ position:absolute;
+          z-index: -1;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+    background-image:url(../website/images/bg-fp.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+min-width: 100%;
+height: auto;
+opacity: 0.1;
+}
+/* Navigation Codes */
+.nav {
+  overflow: hidden;
+background: #f1e767;
+background: -moz-linear-gradient(top,  #f1e767 0%, #feb645 100%);
+background: -webkit-linear-gradient(top,  #f1e767 0%,#feb645 100%);
+background: linear-gradient(to bottom,  #f1e767 0%,#feb645 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=0 );
+
+
+
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #5D655D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+background: rgb(122,188,255);
+background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );
+
+
+
+
+  color: #EDE778;
+}
+
+.nav .icon {
+  display: none;
+  font-size:16px;
+}
+/* Change image to color by Mouse Hover css codes */
+.imghover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+}
+
+.imghover:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+ /* Forum */
+ .forum-title{
+     font-family: 'collegiateregular';
+    font-size: 2em;
+   color:#FFFFFF;
+
+   padding: 8px;
+ }
+ .forum-wel{
+      font-family: 'collegiateregular';
+    font-size: 1.5em;
+   color:#636363;
+
+  text-transform: capitalize;
+ }
+ .nbold{
+    font-weight:400;
+    color:#0EA706;
+ }
+
+ .forumbox{
+
+ }
+.forumbox table {
+    border-collapse: collapse;
+    }
+.forumbox tr > th
+{
+    color: #FFFFFF;
+padding: 8px 15px 8px 15px;
+background-color: #65726A;
+border-spacing: 0px;
+
+}
+ .forumbox tr > td
+{
+padding: 3px 5px 3px 10px;
+
+     background: rgb(229,229,229);
+background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 99%);
+background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 99%);
+background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+ border-left: 1px #DDDADB solid;
+ border-top:  1px #DDDADB solid;
+ }
+ .forumbox  tr:last-child { border-bottom: 1px #DDDADB solid;  }
+ .forumbox  td:last-child { border-right: 1px #DDDADB solid;  }
+
+ /* Forum Forms */
+ .regbody{
+     position:relative !important;
+
+
+  z-index: -1;
+  background: rgb(73,155,234);
+background: -moz-linear-gradient(top,  rgba(73,155,234,1) 0%, rgba(19,21,140,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(73,155,234,1) 0%,rgba(19,21,140,1) 100%);
+background: linear-gradient(to bottom,  rgba(73,155,234,1) 0%,rgba(19,21,140,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#13158c',GradientType=0 );
+
+}
+
+ /* Register */
+ .forumreg {
+
+     width: 100% ;
+     height: auto;
+    background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+padding: 30px;
+border-radius: 10px;
+ }
+ .forumreg label{
+    font-family: 'collegiateregular';
+    font-size: 1.5em;
+ }
+
+  .forumreg input[type=text],[type=password],[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=text ]:focus, [type=password]:focus, [type=email ]:focus {
+    border: 1px solid #FF1911;
+    box-sizing: border-box;
+
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+ .forumreg input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px 8px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+     font-family: 'collegiateregular';
+    font-size: 1.5em;
+}
+
+ .forumreg input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* The screen (browser window) gets smaller than 768px will go 100% */
+@media screen and (max-width: 480px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+
+ .forumbox table{
+     zoom: 0.2;
+      max-width: 20% !important;
+        height: auto !important;
+
+        border-collapse: collapse;
+        float: left;
+
+ }
+  .forumbox table, tr, td{
+      width:10%;
+      zoom: 0.8;
+  }
+  .body-content{
+      top:0px;
+      width:480px;
+
+      display: table;
+      padding:0;
+
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+
+ .forumbox table{
+      width: 20% !important;
+        height: auto !important;
+        overflow-x:auto;
+        border-collapse: collapse;
+        float: left;
+        zoom:1;
+ }
+  .forumbox table td{
+      width:10%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .nav.respnav {position: relative;}
+  .nav.respnav .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .nav.respnav a {
+    float: none;
+    display: block;
+    text-align: left;
+    border: 1px solid #A9A7A8;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        height: auto !important;
+
+    }
+
+}
